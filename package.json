@@ -1,18 +1,21 @@
 {
-  "name": "recharts-proxy",
-  "version": "1.0.0",
-  "main": "lib/index.js",
-  "repository": "https://github.com/talentui/recharts-proxy.git",
-  "author": "lihe3 <lihe3@corp.beisencorp.com>",
-  "license": "MIT",
-  "scripts": {
-    "compile": "rm -rf ./lib && npx babel src/index.js --out-dir lib",
-    "prepublish": "npm run compile"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.1.2",
-    "@babel/core": "^7.1.2",
-    "@talentui/get-babel-config": "^4.0.1",
-    "react": "^16.6.0"
-  }
+    "name": "recharts-proxy",
+    "version": "1.0.0",
+    "main": "lib/index.js",
+    "repository": "https://github.com/talentui/recharts-proxy.git",
+    "author": "lihe3 <lihe3@corp.beisencorp.com>",
+    "license": "MIT",
+    "scripts": {
+        "compile": "rm -rf ./lib && npx babel src/index.js --out-dir lib",
+        "prepublish": "npm run compile"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.1.2",
+        "@babel/core": "^7.1.2",
+        "@talentui/get-babel-config": "^4.0.1",
+        "react": "^16.6.0"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.1.2"
+    }
 }
