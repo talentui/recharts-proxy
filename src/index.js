@@ -8,7 +8,7 @@ const generateChart = type => {
         }
         load() {
             System.import(
-                "https://cdnjs.cloudflare.com/ajax/libs/recharts/1.3.5/Recharts.js"
+                "https://cdnjs.cloudflare.com/ajax/libs/recharts/1.3.5/Recharts.min.js"
             ).then(rechart => {
                 this.setState({
                     rechart: rechart.default
