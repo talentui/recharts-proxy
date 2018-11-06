@@ -1,5 +1,5 @@
 {
-    "name": "recharts-proxy",
+    "name": "@talentui/recharts-proxy",
     "version": "1.0.0",
     "main": "lib/index.js",
     "repository": "https://github.com/talentui/recharts-proxy.git",
